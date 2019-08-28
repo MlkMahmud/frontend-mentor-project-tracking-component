@@ -7,6 +7,6 @@
 ![Mobile Design](./design/mobile-design.jpg)
 
 
-[See It Live](https://app.netlify.com/sites/romantic-torvalds-f8c6b6/overview)
+[See It Live](https://romantic-torvalds-f8c6b6.netlify.com/)
 
 
