@@ -1,4 +1,4 @@
-# Frontend Mentor Coding Challenge (Project tracking intro component)
+# Frontend Coding Challenge
 
 ## Design 
 
@@ -7,6 +7,6 @@
 ![Mobile Design](./design/mobile-design.jpg)
 
 
-[See It Live](link.com)
+[See It Live](https://app.netlify.com/sites/romantic-torvalds-f8c6b6/overview)
 
 
