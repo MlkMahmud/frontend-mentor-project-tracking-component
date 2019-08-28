@@ -2,38 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="styles.css" />  
   <title>Frontend Mentor | Project tracking intro component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Product
-  Features
-  Pricing
-  Login
+  <header id="header">
+    <a href="#" id="logo">
+      <img src="./images/logo.svg" alt="Logo" />
+    </a>
+    <button id="nav-icon">
+      <div></div>
+    </button>
+    <nav id="navigation">
+      <a class="navigation-link" href="#">PRODUCT</a>
+      <a class="navigation-link" href="#">FEATURES</a>
+      <a class="navigation-link" href="#">PRICING</a>
+      <span id="circle">⬤</span>
+      <a class="navigation-link login" href="#">LOGIN</a>
+    </nav>
+  </header>
 
-  New
-  Monograph Dashboard
+  <nav id="mobile-navigation">
+    <a href="#">PRODUCT</a>
+    <a href="#">FEATURES</a>
+    <a href="#">PRICING</a>
+    <hr />
+    <a href="#">LOGIN</a>
+  </nav>
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+  <main id="main">
+    <div id="text-container">
+      <p class="text-light">
+        <span>NEW</span>
+        MONOGRAPH DASHBOARD
+      </p>
+      <h1 class="text-bold">
+        POWERFUL INSIGHTS INTO YOUR TEAM
+      </h1>
+      <p class="text-mid">
+        Project planning and time tracking <br/>for agile teams
+      </p>
+      <div class="wrapper">
+        <button id="schedule-btn">SCHEDULE A DEMO</button>
+        <span class="preview-text">TO SEE A PREVIEW</p>
+      </div>
+    </div>
 
-  Schedule a demo
-  to see a live preview
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <div id="image-container">
+      <img src="./images/illustration-devices.svg" alt="">
+    </div>
+  </main>
+  <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
