@@ -42,6 +42,7 @@ body:before {
   color: black;
   margin-left: 50px;
   font-size: 18px;
+  text-transform: uppercase;
 }
 #navigation .login {
   color: #5b5f71;
@@ -106,6 +107,7 @@ body:before {
   display: block;
   color: #242942;
   font-weight: bold;
+  text-transform: uppercase;
   font-size: 18px;
   font-family: "Barlow Condensed", sans-serif;
   margin: 20px 0;
@@ -143,6 +145,7 @@ body:before {
   font-size: 1.2rem;
   letter-spacing: 2px;
   margin-bottom: 25px;
+  text-transform: uppercase;
   color: #a0a1ac;
   word-spacing: 10px;
 }
@@ -156,6 +159,7 @@ body:before {
 
 .text-bold {
   font-weight: bold;
+  text-transform: uppercase;
   color: #242942;
   font-size: 4rem;
   margin-bottom: 25px;
@@ -164,6 +168,7 @@ body:before {
 
 .text-mid {
   font-size: 1.5rem;
+  text-transform: uppercase;
   color: #5b5f71;
   margin-bottom: 50px;
 }
@@ -176,6 +181,7 @@ body:before {
 
 #schedule-btn {
   background: #ff5c5c;
+  text-transform: uppercase;
   border: none;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 18px;
@@ -188,8 +194,10 @@ body:before {
 
 .preview-text {
   align-self: center;
+  text-transform: uppercase;
   color: #a0a1ac;
-  word-spacing: 10px;
+  word-spacing: 2px;
+  letter-spacing: 5px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -255,10 +263,15 @@ body:before {
 
   #schedule-btn {
     font-size: 1rem;
-    padding: 10px 20px;
+    padding: 10px;
+  }
+
+  .preview-text {
+    word-spacing: 0;
+    letter-spacing: 5px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   body {
     padding: 10% 0;
   }
@@ -271,13 +284,8 @@ body:before {
     padding: 3%;
   }
 
-  #schedule-btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-  }
-
   .preview-text {
-    font-size: 1rem;
+    letter-spacing: 2px;
   }
 
   .text-bold {
