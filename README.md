@@ -1,4 +1,5 @@
-# Frontend Coding Challenge
+# Frontend Coding Challenge [See It Live](https://romantic-torvalds-f8c6b6.netlify.com/)
+
 
 ## Mockup
 
@@ -6,7 +7,5 @@
 
 ![Mobile Design](./design/mobile-design.jpg)
 
-
-[See It Live](https://romantic-torvalds-f8c6b6.netlify.com/)
 
 
