@@ -1,6 +1,6 @@
 # Frontend Coding Challenge
 
-## Design 
+## Mockup
 
 ![Desktop preview](./design/desktop-design.jpg)
 
